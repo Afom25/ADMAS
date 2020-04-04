@@ -14,4 +14,5 @@ $(window).on('load',function(){
         $(".about-head").addClass("animated fadeInLeft");
         $(".who-text-1").addClass("animated zoomIn");
         $(".who-text").addClass("animated fadeInDown infinite");
+        $(".about-text-1").addClass("animated fadeInDown infinite");
   });
