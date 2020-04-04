@@ -28,16 +28,13 @@ p{
     background: #AC7B84;
 }
 .l-heading {
-    font-size: 40px;
+    font-size: 50px;
+    line-height: 400;
     margin-bottom: 0.75rem;
     line-height: 1.1;
-    color:#AC7B84;
-}
-.m-heading {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    line-height: 1.1;
-    color:#AC7B84;
+    color:white;
+    font-family: 'Share', cursive;
+
 }
 .lead {
     font-size: 1.3rem;
@@ -57,13 +54,7 @@ p{
     border-radius: 5px;
     
 }
-.btn:hover {
-    background: blanchedalmond;
-}
-.btn-dark {
-    background: #333;
-    color: white;
-}
+
 
 /* navbar */
 #navbar {
@@ -85,6 +76,7 @@ p{
     color:#fff;
     padding:0.75rem;
     margin:0 0.25rem;
+    float:right;
 }
 #navbar ul li a:hover {
     background: #AC7B84;
@@ -94,7 +86,7 @@ p{
 /* Showcase */
 
 #showcase{
-    background: #333 url('../image/bank88.jpeg')
+    background: #333 url('../image/bank1.jpeg')
      no-repeat center center/cover;
     height:100vh;
 }
@@ -115,18 +107,109 @@ p{
     text-align: center;
   
 }
+/* WHo we are */
+.who-text {
+    color:lightpink;
+    font-size: 40px;
+    font-family: 'Itim', cursive;
+}
+#who-image p{
+     font-family: 'Share', cursive;
+}
+#who-image {
+    background: whitesmoke;
+    text-align: center;
+
+}
+.branc{
+    text-decoration: none;
+    
+}
+#who-image1{
+    background: lightblue;
+    text-align: center;
+}
 
 /* items */
-
-#about .row , #item {
-    /* flex:1; */
-    text-align: center;
-    /* padding:1rem; */
+#about {
+    padding:2rem 0;
+    margin-bottom: 2rem;
 }
-#about , #item i {
+#about .row , #item {
+    
+    text-align: center;
+    
+}
+#item i {
     background:#AC7B84 ;
     padding: 1rem;
     border-radius: 50%;
-  
     margin-bottom: 2rem;
+}
+.about-text-1{
+    font-family: 'Righteous', cursive;
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 2rem;;
+}
+.about-text-1 hr {
+    background-color: #AC7B84;
+    width:70px;
+    height:4px;
+    margin:0 auto;
+    border:none;
+}
+.about-text {
+    font-family: 'Pangolin', cursive;
+}
+#item p{
+    font-family: 'Itim', cursive;
+}
+#image-4{
+    border-radius: 40%;
+}
+
+/*footter*/
+
+.footer-1 {
+    background: #212226;
+    padding:40px;
+}
+.fotter-text p{
+    text-align: center;
+    color:blue;
+}
+
+
+ul.social-media {
+    padding:0;
+    margin-top:20px;
+    text-align: center;
+}
+ul.social-media li {
+    display:inline-block;
+    padding:0;
+}
+ul.social-media li a {
+    border:1px solid #fff;
+    width:35px;
+    height:35px;
+    display:inline-block;
+    line-height: 35px;
+    color:#fff;
+    border-radius: 50%;
+    -webkit-transition: all 40ms linear;
+    transition: all 40ms linear;
+}
+ul.social-media li:nth-child(1) a:hover {
+    background: #3b5958 ;
+    border-color: transparent;
+}
+ul.social-media li:nth-child(2) a:hover {
+    background: #3b5958 ;
+    border-color: transparent;
+}
+ul.social-media li:nth-child(3) a:hover {
+    background: #3b5958 ;
+    border-color: transparent;
 }
