@@ -1,0 +1,132 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+a {
+    text-decoration: none;
+}
+p{
+    margin:0.75rem 0;
+}
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:0 1rem;
+    overflow: hidden;
+}
+.text-center{
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+    text-align: center;
+}
+/* utility classes */
+.text-primary {
+    background: #AC7B84;
+}
+.l-heading {
+    font-size: 40px;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+    color:#AC7B84;
+}
+.m-heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    line-height: 1.1;
+    color:#AC7B84;
+}
+.lead {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+.py-1{
+    padding:1.5rem 0;
+
+}
+.btn {
+    display:inline-block;
+    color:#fff;
+    background: #AC7B84;
+    padding: 0.5rem 2rem;
+    border:none;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.btn:hover {
+    background: blanchedalmond;
+}
+.btn-dark {
+    background: #333;
+    color: white;
+}
+
+/* navbar */
+#navbar {
+    background: #333;
+    color:#fff;
+    position: sticky;
+    top:0;
+    display:flex;
+    justify-content: space-between;
+    z-index:1;
+    padding:1rem;
+}
+#navbar ul{
+    display:flex;
+    align-items:center;
+    list-style:none;
+}
+#navbar ul li a {
+    color:#fff;
+    padding:0.75rem;
+    margin:0 0.25rem;
+}
+#navbar ul li a:hover {
+    background: #AC7B84;
+    border-radius: 5px;
+}
+
+/* Showcase */
+
+#showcase{
+    background: #333 url('../image/bank88.jpeg')
+     no-repeat center center/cover;
+    height:100vh;
+}
+#showcase .showcase-content {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    height:100%;
+    color:black;
+   padding:0 2rem;
+    position: absolute;
+    right:0;
+    bottom:0;
+    top:65px;
+    left:0;
+    text-align: center;
+  
+}
+
+/* items */
+
+#about .row , #item {
+    /* flex:1; */
+    text-align: center;
+    /* padding:1rem; */
+}
+#about , #item i {
+    background:#AC7B84 ;
+    padding: 1rem;
+    border-radius: 50%;
+  
+    margin-bottom: 2rem;
+}
